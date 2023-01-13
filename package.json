@@ -1,0 +1,19 @@
+{
+  "name": "javascriptlearn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ifStatement.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saatwik-S/javascriptlearn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saatwik-S/javascriptlearn/issues"
+  },
+  "homepage": "https://github.com/Saatwik-S/javascriptlearn#readme"
+}
