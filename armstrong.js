@@ -1,4 +1,4 @@
-const num = 9474;
+const number = 9474;
 
 const isArmstrong = (num) => {
     let ans = 0;
@@ -10,7 +10,7 @@ const isArmstrong = (num) => {
     return ans === num;
 }
 
-console.log(isArmstrong(num) ? 'Armstrong' : 'Not Armstrong')
+console.log(isArmstrong(number) ? 'Armstrong' : 'Not Armstrong')
 
 const isPrime = (num) => {
     if (num < 2) return true;
@@ -22,5 +22,5 @@ const isPrime = (num) => {
     return true;
 }
 
-console.log(isPrime(num) ? 'Is a prime number' : 'Not a prime number')
+console.log(isPrime(number) ? 'Is a prime number' : 'Not a prime number')
 
