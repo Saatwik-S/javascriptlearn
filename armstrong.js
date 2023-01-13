@@ -1,14 +1,17 @@
 const num = 9474;
 let ans = 0;
-const len = num.toString().length;
-num.toString().split('').forEach(e => {
-    const converted = parseInt(e);
-    let tempAns = 1;
-    for(let i = 0; i <  len; i++) tempAns *= converted;
-    ans += tempAns;
-});
 
-console.log(ans === num ? 'Armstrong' : 'Not Armstrong')
+function isArmstrong(num) {
+    const len = num.toString().length;
+    num.toString().split('').forEach(e => {
+        const converted = parseInt(e);
+        let tempAns = Math.pow(converted, len);
+        ans += tempAns;
+    });
+    return ans === num;
+}
+
+console.log(isArmstrong(num) ? 'Armstrong' : 'Not Armstrong')
 
 const isPrime  = (num) => {
     if(num < 2) return true;
