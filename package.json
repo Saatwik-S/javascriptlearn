@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Saatwik-S/javascriptlearn/issues"
   },
-  "homepage": "https://github.com/Saatwik-S/javascriptlearn#readme"
+  "homepage": "https://github.com/Saatwik-S/javascriptlearn#readme",
+  "dependencies": {
+    "javascripting": "^2.7.4"
+  }
 }
