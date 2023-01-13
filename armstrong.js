@@ -1,7 +1,8 @@
 const num = 9474;
-let ans = 0;
 
 const isArmstrong = (num) => {
+    let ans = 0;
+
     const len = num.toString().length;
     num.toString().split('').forEach(e => {
         ans += Math.pow(parseInt(e), len);
