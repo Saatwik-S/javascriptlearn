@@ -1,3 +1,3 @@
 const roundUp = 1.5
-const rounded = Math.rounded(roundUp)
+const rounded = Math.round(roundUp)
 console.log(rounded)
